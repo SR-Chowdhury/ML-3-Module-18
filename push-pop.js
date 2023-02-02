@@ -27,7 +27,13 @@ var modifiedArr2 = arr2.pop();
 // console.log(arr2);
 // console.log('Pop from arr2: '+ modifiedArr2);
 
-// Remove the first element of an array with slice
+// Remove the first element of an array with shift()
 var arr3 = ['Shakib', 'Mash', 'Ash', 'Tamin', 'Shanto'];
-var sliceElement = arr3.slice(1);
+// var sliceElement = arr3.slice(1);
+var shiftElement = arr3.shift(1);
+console.log('After Shift: '+ arr3);
+
+// Remove the first element of an array with slice()
+var arr4 = ['Shakib', 'Mash', 'Ash', 'Tamin', 'Shanto'];
+var sliceElement = arr4.slice(1);
 console.log('After Slice: '+ sliceElement);
