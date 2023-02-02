@@ -68,5 +68,3 @@ if (x == y || x == z || y == z) {
 } else {
     console.log('Practice Problem 3 (b): This triangle is not Isosceles \n');
 }
-
-console.log(6!=6);
